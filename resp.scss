@@ -1,0 +1,192 @@
+@media only screen and (max-width:1000px){
+    body{
+        width:100%;
+    }
+    header{
+        margin-left: 20%;
+    }
+    .header_rectangle{
+        display: none;
+    }
+    .list {
+        display: none;
+    }
+    section{
+        padding: 0;
+        margin: 5%;
+        justify-content:end;
+        //margin-left: 20%;
+        div{
+            padding-left: 27px;
+        }
+        img{
+            display: none;
+        }
+        h1{
+            width: 99%;
+        }
+        p{
+            width:99%;
+        }
+        
+    }
+    .section_2{
+            display:flex;
+            flex-direction: column;
+            align-items: end;
+            width:92%;
+            margin-left: -49px;
+            padding-left: 0;
+            ul{
+                padding-top: 30px;
+                padding-left: 0;
+                justify-content: center;
+                li{
+                    input{
+                        padding-left: 35px;
+                        text-align: start;
+                        width:222px;
+                    }
+                }
+            }
+            div{
+                .logo{
+                    width:69%;
+                    height: 57px;
+                }
+            
+            }  
+    }
+    .searchbar_img{
+        padding-left: 8px;
+        transform: scale(1.8);
+        padding-top:11px;
+        
+    }
+    .searchbar{
+        transform: scale(1.5);
+        margin-right: -12%;
+        margin-left: 21px;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+        max-width: 100%;
+        div{
+            //margin-left: 20%;
+            padding-left: 8px;
+            width: 89%;
+            h1{
+                margin-right: 12%;
+            }
+            p{
+                margin-bottom: 8%;
+                margin-right: 1%;
+            }
+        }
+        .figure{
+            width:89%;
+            padding: 0;
+            margin-right: 17px;
+            figure{
+                figcaption{
+                    font-size: 12px;
+                }
+            }
+        }
+        
+    }
+    .section4{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 15%;
+        width:100%;
+        //margin-left: 20%;
+        .fund_guru_img{
+            width:70%;
+            padding:64px;
+        }
+        div{
+            padding-left: 20px;
+            margin:10px;
+            h1{
+                font-size: 34px;
+            }
+        }
+    }
+    .section5{
+        margin-top: 65px;
+        .expert_img{
+            display: none;
+        }
+        .section5_div1{
+            padding-top: 10px;
+            //margin-left: 20%;
+            margin-left:0
+        }
+        .section5_div{
+            flex-direction: column;
+            align-items: end;
+           // margin-left: 20%;
+           margin-left:0;
+        }
+    }
+    .section6{
+        margin:0;
+        padding-left: 26px;
+        text-align: center;
+        h1{
+            font-size: 45px;
+            line-height: 50px;
+        }
+        div{
+            justify-content: center;
+            width: 93%;
+            padding-left: 18px;
+            #section6_img{
+                margin-left:170px;
+                margin-top: -25%;
+            }
+        }
+        
+    }
+    footer{
+        .footer_div1{
+            padding: 0;
+            flex-direction: column;
+            align-items: end;
+            //margin-left: 20%;
+            img{
+                width: 50%;
+                padding: 0;
+                padding-left: 54px;
+            }
+            ul{
+                margin: 0;
+                width:35%;
+            }
+            h1{
+                font-size: 25px;
+            }
+        }
+        .footer_div2{
+            padding: 0;
+            flex-direction: column;
+           // margin-left: 20%;
+            h1{
+                font-size: 25px;
+            }
+        }
+        .footer_div3{
+            small{
+                display: none;   
+            }
+           // margin-left: 20%;
+        }
+    }
+    
+}
