@@ -173,7 +173,7 @@
   }
   .section6 div #section6_img {
     position: absolute;
-    top: -64px;
+    top: -102px;
   }
   footer .footer_div1 {
     padding: 0;
@@ -203,10 +203,13 @@
             justify-content: space-between;
     width: 135%;
   }
+  footer .footer_div1 .footer_list2 #list-3 {
+    padding-right: 0;
+  }
   footer .footer_div1 .footer_list2 #list-4 {
     position: absolute;
-    top: 84px;
-    left: 83px;
+    top: 90px;
+    left: 25px;
   }
   footer .footer_div1 .footer_list2 #list-4 li {
     padding-left: 18px;
@@ -225,7 +228,7 @@
   }
   footer .footer_div2 div {
     position: absolute;
-    left: 229px;
+    left: 151px;
     top: 100px;
   }
 }
