@@ -95,7 +95,7 @@ ul{list-style: none;}
             justify-content: space-around;
             align-items: center;
             margin: 0;
-            padding-left:89px;
+            //padding-left:89px;
             li{
                 padding-right: 24px;
             }
@@ -112,13 +112,15 @@ ul{list-style: none;}
     height: 36px;
     text-align: center;
     float:right;
-    margin-right: -57;
+    //margin-right: -57;
+    position: relative;
     &_img{
         margin-right: -26px;
         padding-top: 13px;
         float: left;
-        padding-left: 26px;
+        padding-left: 12px;
         width: 12px;
+        position: absolute;
     }
 
 }
@@ -195,7 +197,7 @@ section{
     %figure_box{
         border: 1px solid rgba(0, 208, 156, 0.2);
         border-radius: 6px;
-        opacity: 0.7;
+        //opacity: 0.7;
         width: 88px;
         height: 85px;
     }
@@ -211,6 +213,7 @@ section{
             text-align: center;
             figcaption{
                 padding-top: 8px;
+                opacity: 0.7;
             }
         }
         
@@ -262,7 +265,7 @@ section{
     background-image: linear-gradient(180deg, #E4FAF4 0%, #FFFFFF 100%);
     @extend %inner_padding;
     &_div1{
-        position: absolute;
+        //position: absolute;
         margin-left:53px;
         padding-top: 135px;
         h1{
@@ -281,8 +284,8 @@ section{
     &_div{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
-        padding-top: 90px;
+        align-items: end;
+        //padding-top: 90px;
         div{
             margin-top: 50px;
             
@@ -309,6 +312,11 @@ section{
             #button1{
                 margin-top: 28px;
             }
+        }
+        .expert_img{
+            margin-top:-14%;
+            width:41%;
+            height: 596px;
         }
     }
 
@@ -338,7 +346,7 @@ section{
 
         #section6_img{
             position: absolute;
-            margin-left: 510px;
+            right: 10px;
         
         }
     }
@@ -350,10 +358,41 @@ footer{
         display: flex;
         justify-content: space-evenly;
         padding-top: 35px;
-        li{
-            @extend %para_font;
+        .footer_list1{
+            display: flex;
+            ul{
+                padding:0;
+                padding-right: 40px;
+            }
         }
-        img{
+        .footer_list2{
+            display: flex;
+            ul{
+                padding:0;
+                padding-right: 40px;
+            }
+            #list-3{
+                padding-left: 3px;
+            }
+            #list-4{
+                padding-left: 45px;
+            }
+        }
+        h1{ 
+            color: #222222;
+            font-family: Avenir;
+            font-size: 17px;
+            line-height: 23px;
+            
+        }
+        li{
+            
+            font-size: 15px;
+            line-height: 20px;
+            opacity: 0.699999988079071;
+            text-align: left;
+        }
+        #footer_logo{
             padding-top: 50px;
             padding-left: 25px;
             padding-right: 100px;
@@ -363,34 +402,18 @@ footer{
         
     }
 
-   
-    h1{
-        @extend %para_font;
-        opacity: 1;
-        color:black;
-    }
-   
-    
     .footer_div2{
         display: flex;
-        justify-content: space-evenly;
-        padding-left: 480px;
-        
-        li{
-            @extend %para_font;
-        }
-        
-    }
-    .footer_div3{
-        display: flex;
         justify-content: space-between;
-        padding:30px;
-        padding-right: 80px;
+        padding-top: 40px;
+        padding-right: 140px;
+        
         img{
             margin-right:20px;
         }
         small{
             @extend %para_font;
+            font-size: 12px;
         }
     }
     
