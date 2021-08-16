@@ -39,6 +39,12 @@ section div p, .section3 div p, .section4 div ul, .section4 div h3, .section4_di
   opacity: 0.699999988079071;
 }
 
+button:hover {
+  background-color: #3e8e41 !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .header_rectangle {
   background-color: #E4FAF4;
   width: 100%;
@@ -173,6 +179,23 @@ section div button {
   width: 40%;
   height: 52px;
   margin-top: 30px;
+}
+
+section div span {
+  position: relative;
+  z-index: 2;
+}
+
+section div span::after {
+  content: '';
+  display: block;
+  background-color: #acf5e1;
+  width: 79px;
+  height: 10px;
+  position: absolute;
+  top: 30px;
+  right: 3px;
+  opacity: .6;
 }
 
 section div h1 {
@@ -432,7 +455,7 @@ footer .footer_div1 .footer_list2 {
 
 footer .footer_div1 .footer_list2 ul {
   padding: 0;
-  padding-right: 40px;
+  padding-right: 21px;
 }
 
 footer .footer_div1 .footer_list2 li a {
@@ -444,7 +467,7 @@ footer .footer_div1 .footer_list2 #list-3 {
 }
 
 footer .footer_div1 .footer_list2 #list-4 {
-  padding-left: 45px;
+  padding-left: 60px;
 }
 
 footer .footer_div1 h1 {
