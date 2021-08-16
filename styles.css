@@ -435,6 +435,10 @@ footer .footer_div1 .footer_list2 ul {
   padding-right: 40px;
 }
 
+footer .footer_div1 .footer_list2 li a {
+  font-size: 15px;
+}
+
 footer .footer_div1 .footer_list2 #list-3 {
   padding-left: 3px;
 }

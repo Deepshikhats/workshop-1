@@ -126,7 +126,7 @@
     padding: 64px;
   }
   .section4 div {
-    padding-left: 63px;
+    padding-left: 30px;
     margin: 10px;
   }
   .section4 div h1 {
@@ -173,6 +173,7 @@
   }
   .section6 div #section6_img {
     position: absolute;
+    right: -10px;
     top: -102px;
   }
   footer .footer_div1 {
@@ -184,7 +185,7 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: end;
-    margin-left: 20%;
+    margin-left: 70px;
   }
   footer .footer_div1 #footer_logo {
     width: 50%;
@@ -201,15 +202,16 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 135%;
+    width: 100%;
   }
   footer .footer_div1 .footer_list2 #list-3 {
     padding-right: 0;
+    padding-left: 35px;
   }
   footer .footer_div1 .footer_list2 #list-4 {
     position: absolute;
     top: 90px;
-    left: 25px;
+    left: 42px;
   }
   footer .footer_div1 .footer_list2 #list-4 li {
     padding-left: 18px;
@@ -228,7 +230,7 @@
   }
   footer .footer_div2 div {
     position: absolute;
-    left: 151px;
+    left: 147px;
     top: 100px;
   }
 }
