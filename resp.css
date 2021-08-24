@@ -276,12 +276,20 @@
     padding-left: 5vw;
     padding-right: 5vw;
   }
+  .section3 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
   .section3 .figure {
     width: 50%;
   }
   .section4 {
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .section5 {
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
   .section5 .section5_div1 {
     margin-left: 0px;
