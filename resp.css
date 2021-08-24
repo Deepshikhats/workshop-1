@@ -3,7 +3,7 @@
     width: 100%;
   }
   header {
-    margin-left: 20%;
+    margin-left: 15vw;
   }
   .header_rectangle {
     display: none;
@@ -17,9 +17,7 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
-  }
-  section div {
-    padding-left: 27px;
+    margin-left: 20vw;
   }
   section img {
     display: none;
@@ -88,7 +86,6 @@
     max-width: 100%;
   }
   .section3 div {
-    padding-left: 8px;
     width: 89%;
   }
   .section3 div h1 {
@@ -266,29 +263,25 @@
     max-width: 100%;
   }
   .header_content {
-    padding-right: 32px;
+    padding-right: 5vw;
   }
   .section_2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
   section {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  section img {
-    padding-right: 15px;
-  }
-  section div {
-    padding-left: 40px;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
   .section3 .figure {
     width: 50%;
   }
   .section4 {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 7vw;
+    padding-right: 7vw;
   }
   .section5 .section5_div1 {
     margin-left: 0px;

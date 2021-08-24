@@ -3,7 +3,7 @@
         width:100%;
     }
     header{
-        margin-left: 20%;
+        margin-left: 15vw;
     }
     .header_rectangle{
         display: none;
@@ -15,9 +15,9 @@
         padding: 0;
         margin: 5%;
         justify-content:end;
-        //margin-left: 20%;
+        margin-left: 20vw;
         div{
-            padding-left: 27px;
+            //padding-left: 27px;
         }
         img{
             display: none;
@@ -76,7 +76,7 @@
         max-width: 100%;
         div{
             //margin-left: 20%;
-            padding-left: 8px;
+            //padding-left: 8px;
             width: 89%;
             h1{
                 margin-right: 12%;
@@ -235,28 +235,22 @@
     }
     
 }
-    
-
 @media (min-width: 751px) and (max-width:992px){
     body{
         max-width:100%;
     }
     .header_content{
-        padding-right: 32px;
+        padding-right: 5vw;
     }
     .section_2{
         justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
         
     }
     section{
-        padding-right: 0px;
-        padding-left: 0px;
-        img{
-            padding-right: 15px;
-        }
-        div{
-            padding-left:40px;
-        }
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
     .section3{
         .figure{
@@ -264,8 +258,8 @@
         }
     }
     .section4{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 7vw;
+        padding-right: 7vw;
     }
     .section5{
         .section5_div1{
@@ -282,5 +276,8 @@
     }
 
 }
+    
+
+
     
 
