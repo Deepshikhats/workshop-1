@@ -1,3 +1,13 @@
+@font-face {
+  font-family: FuturaBT;
+  src: url(fonts/Futura-Book-font.ttf);
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(fonts/AvenirLTStd-Roman.otf);
+}
+
 section div button, .section4 div button, .section5_div div button {
   background-color: #00D09C;
   border-radius: 4px;
@@ -31,7 +41,7 @@ section div h1, .section3 div h1, .section4 div h1, .section5_div div h2, .secti
   line-height: 28.77px;
 }
 
-section div p, .section3 div p, .section4 div ul, .section4 div h3, .section4_div h4, .section5_div1 h3, .section5_div div p, .section6 h3, footer .footer_div2 small {
+.section_2 ul, section div p, .section3 div p, .section4 div ul, .section4 div h3, .section4_div h4, .section5_div1 h3, .section5_div div p, .section6 h3, footer .footer_div2 small {
   color: #222222;
   font-family: Avenir;
   font-size: 17px;
@@ -99,11 +109,6 @@ ul {
   padding-right: 9vw;
 }
 
-section {
-  padding-left: 58px;
-  padding-right: 37px;
-}
-
 .section_2 {
   background-color: #FFFFFF;
   padding-top: 35px;
@@ -153,13 +158,6 @@ section {
   position: absolute;
 }
 
-.section_2 ul {
-  color: #222222;
-  font-family: Avenir;
-  font-size: 14px;
-  line-height: 19px;
-}
-
 section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,6 +182,7 @@ section div button {
 section div span {
   position: relative;
   z-index: 2;
+  font-weight: 700;
 }
 
 section div span::after {
@@ -199,7 +198,8 @@ section div span::after {
 }
 
 section div h1 {
-  font-size: 40px;
+  font-weight: 300;
+  font-size: 41px;
   line-height: 47.95px;
   text-align: left;
   width: 72%;
@@ -280,6 +280,8 @@ section img {
 }
 
 .section3 .figure figure figcaption {
+  font-family: Avenir;
+  font-size: 14px;
   padding-top: 8px;
   opacity: 0.7;
 }
@@ -353,7 +355,7 @@ section img {
 
 .section5_div1 h1 {
   color: #222222;
-  font-family: Futura;
+  font-family: FuturaBT;
   font-size: 40px;
   line-height: 52px;
   text-align: start;
@@ -490,6 +492,7 @@ footer .footer_div1 h1 {
 }
 
 footer .footer_div1 li {
+  font-family: Avenir;
   font-size: 15px;
   line-height: 24px;
   opacity: 0.699999988079071;
