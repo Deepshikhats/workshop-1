@@ -2,6 +2,9 @@
     .accordion_resp{
         display:none;
     }
+    .icon_container{
+        display: none;
+    }
 }
 @media only screen and (max-width:750px){
     body{
@@ -15,6 +18,17 @@
     }
     .list {
         display: none;
+    }
+    .icon_container{
+        position: absolute;
+        top:48px;
+        right:1vw;
+    }
+    .icon{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
     }
     section{
         padding: 0;
