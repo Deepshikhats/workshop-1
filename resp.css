@@ -226,7 +226,18 @@
   footer .footer_div1 h1 {
     font-size: 15px;
   }
-  footer .footer_div1 .accordion {
+  footer .footer_div2 {
+    position: relative;
+  }
+  footer .footer_div2 small {
+    display: none;
+  }
+  footer .footer_div2 div {
+    position: absolute;
+    left: 147px;
+    top: 100px;
+  }
+  .accordion {
     background-color: white;
     color: black;
     font-size: 17px;
@@ -240,7 +251,7 @@
     transition: 0.4s;
     margin-bottom: 23px;
   }
-  footer .footer_div1 .panel {
+  .panel {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -248,25 +259,14 @@
     -webkit-transition: max-height 0.2s ease-out;
     transition: max-height 0.2s ease-out;
   }
-  footer .footer_div1 .accordion:after {
+  .accordion:after {
     content: '+';
     font-size: 13px;
     color: #777;
     float: right;
   }
-  footer .footer_div1 .active:after {
+  .active:after {
     content: "-";
-  }
-  footer .footer_div2 {
-    position: relative;
-  }
-  footer .footer_div2 small {
-    display: none;
-  }
-  footer .footer_div2 div {
-    position: absolute;
-    left: 147px;
-    top: 100px;
   }
 }
 
