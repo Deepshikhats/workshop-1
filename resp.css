@@ -1,3 +1,9 @@
+@media (min-width: 751px) {
+  .accordion_resp {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   body {
     width: 100%;
@@ -189,6 +195,7 @@
     padding: 0;
   }
   footer .footer_div1 .footer_list1 {
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -218,6 +225,37 @@
   }
   footer .footer_div1 h1 {
     font-size: 15px;
+  }
+  footer .footer_div1 .accordion {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: gray .5px solid;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    margin-bottom: 23px;
+  }
+  footer .footer_div1 .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.2s ease-out;
+    transition: max-height 0.2s ease-out;
+  }
+  footer .footer_div1 .accordion:after {
+    content: '+';
+    font-size: 13px;
+    color: #777;
+    float: right;
+  }
+  footer .footer_div1 .active:after {
+    content: "-";
   }
   footer .footer_div2 {
     position: relative;

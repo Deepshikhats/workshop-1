@@ -50,9 +50,9 @@ section div h1, .section3 div h1, .section4 div h1, .section5_div div h2, .secti
 }
 
 button:hover {
-  background-color: #3e8e41 !important;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  cursor: pointer;
 }
 
 .header_rectangle {
